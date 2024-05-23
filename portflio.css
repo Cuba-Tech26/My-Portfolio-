@@ -1,0 +1,376 @@
+*{
+ margin: 0;
+ padding: 0;   
+ box-sizing: border-box;
+}
+ html{
+ font-size: 62.5%;   
+ }
+ @media (max-width: 56.25em) {
+html{
+  font-size: 56%;
+}
+ }
+ nav{
+ background-color: #231f1f;  
+ width: 100vw;
+ height: 8vh;
+ border-bottom: 1px solid #712858; 
+ position:fixed;
+ display: flex;
+ justify-content: space-between;
+ padding: 0 6rem;
+ z-index: 2;
+ }
+ nav div{
+ margin: 2rem 0rem;   
+ }
+ a{
+ color: #fff; 
+ font-size: 2rem;
+ text-decoration: none;  
+ text-transform: uppercase;
+ padding: 0rem 2rem;
+ }
+ a:hover{
+ color: gold;   
+ }
+ header{
+ background-image: url("/images/download.png");
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ height: 100vh;
+ width: 100vw;
+ position: relative;
+ }
+ header h1{
+ color: #fff; 
+ font-size: 8rem; 
+ padding-top: 10rem; 
+ text-align: center;
+ text-transform: capitalize;
+ }
+ h3{
+ color: #fff; 
+ text-align: center;
+ font-size: 3rem;
+
+ }
+ span{
+ color: gold;   
+ }
+ .mypics{
+ text-align: center;  
+ border-radius: 2rem;
+ margin: 5rem 70rem 6rem; 
+ height: 40vh; 
+ }
+ .sec2{
+  width: 100vw;
+  height: 100vh; 
+  background-color: #f4f2f2;
+ }
+ .sec2 h3{
+  color: #310b24;
+  text-align: center; 
+  padding: 0 30rem; 
+ }
+ .about{
+   display: flex; 
+   margin: 5rem 1rem 0rem;
+   justify-content: space-between;
+ }
+ .conect{
+ color: #561640;
+ text-transform: none; 
+ }
+ .conect:hover{
+  color: #635d5d;
+ }
+ .abt-sec{
+ padding: 0 10rem; 
+ width: 50vw;
+ }
+ .abt-sec h1 {
+  color: red;
+  margin-right: 10rem;
+  margin-bottom: 3rem;
+ }
+ .abt-sec p{
+font-size: 1.9rem;
+font-family: "Source Sans Pro",sans-serif;
+color: #666666;
+margin: 1.5rem 0 0.5rem;
+line-height: 3rem;
+ }
+ .skill-sec{
+  width: 50vw;
+  padding: 0 5rem;
+ }
+ .skl-sec{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  padding: 0 5rem;
+  font: 1.9rem "Source Sans Pro", sans-serif;
+ }
+ 
+ .css{
+  background-color: #32012F;
+  color: #f4f2f2;
+  width: 8vw;
+  height: 5vh;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 0.5rem;
+ }
+ .respon{
+  background-color: #32012F;
+  color: #f3efef;
+  width: 10vw;
+  height: 8vh;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 0.5rem;
+ }
+ .sec2 h1{
+ font-size: 5rem;
+ text-align: center;
+ text-transform: uppercase;   
+ padding-top: 5rem;
+ }
+ .sec3{
+  width: 100vw;
+  height: 260vh; 
+  background-color: #1c1b1d;
+ }
+ .sec-h1{
+ font-size: 5rem;
+ color: #fff;
+ text-align: center;
+ text-transform: uppercase;   
+ padding-top: 5rem;
+ }
+ .sec3 h3{
+ color: #ffF; 
+ padding: 3rem 0;
+ }
+ .sec3-pdiv{
+  position: relative;
+ display: flex; 
+ margin: 3rem 1rem 0 0;
+ justify-content: space-evenly;
+ }
+ .sec3-sub1{
+ position: relative;
+ display: flex; 
+ top: -16rem;
+ justify-content: space-evenly;
+ }
+ .sec3-sub2{
+ position: relative;
+ display: flex; 
+ top: -27.3rem;
+ justify-content: space-evenly;
+ }
+ .sec3-sub3{
+ position: relative;
+ display: flex; 
+ top: -39rem;
+ justify-content: space-evenly;
+ }
+ .project{
+ width: 30vw;
+ margin: 7rem 10rem 0; 
+ }
+ 
+ .brand-intro{
+  font-size: 1.9rem;
+  font-family: "Source Sans Pro",sans-serif;
+  color: #c9c3c3;
+  margin: 3rem 8rem 30rem;
+  padding: 0 0.2rem 0rem;
+  line-height: 3rem; 
+ }
+ .brand-intro1{
+  font-size: 1.9rem;
+  font-family: "Source Sans Pro",sans-serif;
+  color: #c9c3c3;
+  margin: 1rem 8rem  30rem;
+  padding: 0 0.2rem 0rem;
+  line-height: 3rem; 
+ }
+ .doordsh{
+  color: #fff;
+  font-size: 4rem;
+  margin: 10rem 5rem 0rem 8rem;
+ }
+ .view-btn{
+ width: 15vw;
+ height: 8.5vh; 
+ color: #fff;
+ font-size: 3rem;
+ position: absolute;
+ top: 35rem;
+ margin-left: 8rem;
+ border: none;
+ border-radius: 1rem;
+ background-color: #6c2e56;
+ }
+ .view-btn1{
+ width: 15vw;
+ height: 8.5vh; 
+ color: #fff;
+ font-size: 3rem;
+ position: absolute;
+ top: 29rem;
+ margin-left: 8rem;
+ border: none;
+ border-radius: 1rem;
+ background-color: #6c2e56;
+ }
+ .view-btn1:hover, .view-btn:hover, .submit-btn:hover{
+  background-color: #525050;
+ }
+.sec4 {
+background-color: rgb(196, 193, 193);  
+width: 100vw;
+height: 190vh;
+}
+.sec4-h1 {
+  font-size: 5rem;
+  color: #090808;
+  text-align: center;
+  text-transform: uppercase;   
+  padding-top: 15rem; 
+}
+.sec4 h3{
+text-align: center;
+color: #090808;
+padding: 3rem 30rem; 
+margin-bottom: 10rem;
+}
+.form-sec{
+align-items: center;
+margin: auto;
+position: relative;
+background-color: #fff;  
+width: 90rem;
+height: 92rem;
+}
+#label-name{
+color: #525050;
+font-size: 1.9rem;
+font-family: "Source Sans Pro",sans-serif;
+padding: 4rem 8rem 0rem 8rem ;
+position: absolute;
+
+}
+#email-label{
+color: #525050;
+font-size: 1.9rem;
+font-family: "Source Sans Pro",sans-serif;
+padding: 0.1rem 8rem 0rem 8rem ;
+position: absolute;
+
+}
+
+::placeholder{
+color: #767474;
+font-size: 2rem;
+font-weight:200;
+text-transform: capitalize;
+padding: 0 3rem;
+}
+
+input{
+  width: 75rem;
+  height: 8rem;
+  margin: 8rem 8rem;
+  border: none;
+  background-color: #dbdbdb; 
+  border-radius: 0.5rem;
+}
+#mail{
+  width: 75rem;
+  height: 8rem;
+  margin: 4rem 8rem;
+  border: none;
+  background-color: #dbdbdb; 
+  border-radius: 0.5rem;
+}
+#massage{
+  width: 75rem;
+  height: 30rem;
+  margin: 4rem 8rem;
+ padding-bottom: 20rem;
+  border: none;
+  background-color: #dbdbdb; 
+  border-radius: 0.5rem;
+}
+#email{
+  width: 75rem;
+  height: 8rem;
+  padding-bottom: 900 rem;
+  margin: 0rem 8rem;
+  border: none;
+  background-color: #dbdbdb; 
+  border-radius: 0.5rem;
+}
+.submit-btn{
+  width: 15vw;
+ height: 8.5vh; 
+ color: #fff;
+ font-size: 3rem;
+ position: absolute;
+ top: 29rem;
+ margin-left: 57.4rem;
+ margin-top: 50rem;
+ border: none;
+ border-radius: 1rem;
+ background-color: #6c2e56; 
+}
+
+footer{
+  background-color: black;
+  height: 52rem;
+}
+.flex-foot{
+ display: flex; 
+ justify-content: space-between;
+ margin-right: 5rem;
+}
+.foot1{
+ margin: 8rem 10rem;
+ color: #fff; 
+ font-size: 3rem;
+ text-transform: uppercase;
+}
+.foot1 h4{
+ color: #fff; 
+ font-size: 1.5rem;
+ text-transform: uppercase;
+}
+.footp{
+color: #f6efef;  
+font-size: 1.9rem;
+margin-left: 10rem;
+font-family: "Source Sans Pro",sans-serif;
+}
+hr{
+border: 0.5px light white; 
+margin: 10rem 0; 
+}
+.copy{
+color: #ffF; 
+font-family: "Source Sans Pro",sans-serif;
+font-size: 1.9rem;
+margin-left: 40%; 
+}
+.twiter{
+width: 4rem;  
+}
+
